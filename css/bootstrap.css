@@ -752,6 +752,7 @@ pre code {
   margin-left: auto;
 }
 
+
 .container:before,
 .container:after {
   display: table;
@@ -4182,7 +4183,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-brand {
   float: left;
-  padding: 15px 15px;
+  padding: 8px 15px;
   font-size: 18px;
   line-height: 20px;
 }
@@ -4922,8 +4923,10 @@ a.list-group-item.active > .badge,
   font-size: 21px;
   font-weight: 200;
   line-height: 2.1428571435;
-  color: inherit;
-  background-color: #eeeeee;
+  /*color: inherit;
+  background-color: #eeeeee;*/
+  background-image: url("../images/rd.png");
+  background-position: center;
 }
 
 .jumbotron h1 {
