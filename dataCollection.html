@@ -7,6 +7,7 @@
 
   <!-- Core Bootstrap -->
   <link href="./css/bootstrap.css" rel="stylesheet">
+  <link href="./css/totop.css" rel="stylesheet">
 
   <!-- Enable proper rendering on mobile -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,11 +27,11 @@
   {
     margin-top: 60px;
   }
-  article
+  /*article
   {
     padding-top: 60px;
     margin-top: -60px;
-  }
+  }*/
   </style>
 </head>
 
@@ -104,9 +105,24 @@
   </ul> 
 </div> <!-- /col-md-3 -->
 
+
+
 <!-- Main content section -->
+<div class="container" style="text-align:center;">
+  <ul class="pagination" style="text-align:left;">
+	<li><a href="#">&laquo;</a></li>
+    <li><a href="modules.html">Modules</a></li>
+    <li><a href="goal.html">Goal Formation</a></li>
+    <li><a href="currentModel.html">Current Model Analysis</a></li>
+	<li><a href="dataCollection.html">Data Collection</a></li>
+	<li><a href="community.html">Community Involvement</a></li>
+	<li><a href="creating.html">Create Alternative Plan</a></li>
+	<li><a href="#">&raquo;</a></li>
+  </ul>
+</div>
+
 <div class="col-md-6">
-  
+
     <article id="data-collection">
 	<h1>Data Collection</h1>
       <p>This section may be the most important to the success of any redistricting effort. It also is the hardest to complete and the one from which you may receive the most resistance from government institutions. Gathering data is not an easy activity, and will more than likely require you to crowd source the information. There is no on place where all this data resides, and some of it may need to be inferred because of information that the school system or other departments deem confidential.</p>
@@ -154,11 +170,16 @@
     </article>
 </div>
 
+<footer>
 
+<a href="#" class="go-top">Go Top</a>
+
+</footer>
 
 <!-- Including scripts at bottom of page for faster loading -->
 <script src="./js/jquery.min.js"></script>
 <script src="./js/bootstrap.min.js"></script>
+<script src="./js/totop.js"></script>
 </body>
 
 </html>
