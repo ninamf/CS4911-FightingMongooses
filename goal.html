@@ -109,18 +109,21 @@
   </ul> 
 </div> <!-- /col-md-3 -->
 
-<div class="container" style="text-align:center;">
-  <ul class="pagination" style="text-align:left;">
-	<li><a href="#">&laquo;</a></li>
-    <li><a href="modules.html">Modules</a></li>
-    <li><a href="goal.html">Goal Formation</a></li>
+<div class="col-md-9">
+    <ul class="nav nav-pills nav-justified">
+
+
+    <li class="active"><a href="goal.html">Goal Formation</a></li>
     <li><a href="currentModel.html">Current Model Analysis</a></li>
-	<li><a href="dataCollection.html">Data Collection</a></li>
-	<li><a href="community.html">Community Involvement</a></li>
-	<li><a href="creating.html">Create Alternative Plan</a></li>
-	<li><a href="#">&raquo;</a></li>
+    <li><a href="community.html">Community Involvement</a></li>
+    <li><a href="dataCollection.html">Data Collection</a></li>
+    <li><a href="creating.html">Creating the Redistricting Model</a></li>
   </ul>
 </div>
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+
+
 
 <!-- Main content section -->
 <div class="col-md-6">
@@ -186,6 +189,10 @@
 
   </article>
 
+  <h3 align="right"><a href="currentModel.html">Up Next: Current Model Analysis</a></h3>
+  <br>
+
+
 </div> <!-- /col-md-9" -->
 </div> <!-- /row -->
 
@@ -203,6 +210,24 @@
 <script src="./js/jquery.min.js"></script>
 <script src="./js/bootstrap.min.js"></script>
 <script src="./js/totop.js"></script>
+
+<script type="text/javascript">
+      sfHover = function() {
+      var sfEls = document.getElementById("nav").getElementsByTagName("LI");
+      for (var i=0; i<sfEls.length; i++) {
+        sfEls[i].onmouseover=function() {
+          this.className+=" sfhover";
+        }
+        sfEls[i].onmouseout=function() {
+          this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+        }
+      }
+    }
+    if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+
+</script>
+
 </body>
 
 </html>
