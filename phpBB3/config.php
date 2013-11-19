@@ -2,11 +2,11 @@
 // phpBB 3.0.x auto-generated configuration file
 // Do not change anything in this file!
 $dbms = 'mysqli';
-$dbhost = '127.0.0.1';
+$dbhost = '';
 $dbport = '';
-$dbname = 'forum';
-$dbuser = 'root';
-$dbpasswd = '';
+$dbname = 'mudituzc_forum';
+$dbuser = 'mudituzc_frm';
+$dbpasswd = 'mongoose';
 $table_prefix = 'phpbb_';
 $acm_type = 'file';
 $load_extensions = '';
